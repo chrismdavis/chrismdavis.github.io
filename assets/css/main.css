@@ -29,10 +29,10 @@
 	--work_title_text_size: 2em;
 	--work_title_text_font: var(--main_font);
 	--proj_title_text_color: #000000;
-	--proj_title_text_size: 1em;
+	--proj_title_text_size: 1.2em;
 	--proj_title_text_font: var(--main_font);
 	--proj_tools_text_color: #3ba199;
-	--proj_tools_text_size: 1em;
+	--proj_tools_text_size: .8em;
 	--proj_tools_text_font: "Consolas";
 	--proj_text_color: #565855;
 	--proj_text_size: 1em;
@@ -409,6 +409,7 @@ input, select, textarea {
 		line-height: 1em;
 		margin: 0 0 .5em 0;
 		text-align: center;
+		line-height: 1.5em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -423,10 +424,10 @@ input, select, textarea {
 		font-family: var(--work_title_text_font);
 	}
 
-	h2 {
+	/* h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
-	}
+	} */
 
 	h3 {
 		color: var(--proj_tools_text_color);
