@@ -60,9 +60,9 @@
 	align-items: center;
 	justify-content: center;
 	background-color: #cecece; 
-	border: #000000 solid 6px; 
+	border: #2b2b2b solid 6px; 
 	padding: 1.2em 1em 1.2em 1em;
-	border-radius: .35em; 
+	border-radius: .9em; 
 }
 
 .AT {
