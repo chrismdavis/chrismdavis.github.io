@@ -37,6 +37,16 @@
 	--proj_text_color: #565855;
 	--proj_text_size: 1em;
 	--proj_text_font: var(--main_font); 
+	--C1_H_CLR: #3B9DFF;
+	--C1_CLR: #91C8FF;
+	--C2_H_CLR: #59df95;
+	--C2_CLR: #6effaf;
+	--C3_H_CLR: #FFBA3B;
+	--C3_CLR: #FFD991;
+	--C4_H_CLR: #FF5D3B;
+	--C4_CLR: #FFA591;
+	--T_CLR: #000000;
+	--TXT_CLR: #000000;
 }
 
 /* Box */
@@ -46,7 +56,6 @@
 	border: solid 2px #ffffff; 
 	margin-bottom: 0;
 	padding: .2em;
-	background-color: #3ba199;
 	color: #ffffff;
 	display: grid;
 	text-align: center;
@@ -55,139 +64,191 @@
 .wrapper {
     display: grid;
     gap: .8em .8em;
-    grid-template-columns: 20% 20% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-columns: 13% 22% 14% 14% 14% 14%;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
 	background-color: #cecece; 
 	border: #2b2b2b solid 6px; 
 	padding: 1.2em 1em 1.2em 1em;
-	border-radius: .em; 
+	border-radius: 1em; 
 }
 
 .AT {
 	grid-column: 1;
 	grid-row: 1;
-	background-color: #d67317; 
+	background-color: var(--C1_H_CLR); 
+	color:  var(--T_CLR); 
 	padding: .7em;
 	font-weight: bold
 }
 .A1 {
 	grid-column: 1;
 	grid-row: 2;
+	background-color:  var(--C1_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .A2 {
 	grid-column: 1;
 	grid-row: 3;
+	background-color: var(--C1_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .A3 {
 	grid-column: 1;
 	grid-row: 4;
+	background-color:  var(--C1_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .A4 {
 	grid-column: 1;
 	grid-row: 5;
+	background-color:  var(--C1_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .BT {
 	grid-column: 2;
 	grid-row: 1;
-	background-color: #d67317; 
+	background-color:  var(--C2_H_CLR); 
+	color:  var(--T_CLR); 
 	padding: .7em;
 	font-weight: bold
 }
 .B1 {
 	grid-column: 2;
 	grid-row: 2;
+	background-color:  var(--C2_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .B2 {
 	grid-column: 2;
 	grid-row: 3;
+	background-color:  var(--C2_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .B3 {
 	grid-column: 2;
 	grid-row: 4;
+	background-color:  var(--C2_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .B4 {
 	grid-column: 2;
 	grid-row: 5;
+	background-color: var(--C2_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .CT {
 	grid-column: 3/5;
 	grid-row: 1;
-	background-color: #d67317; 
+	background-color: var(--C3_H_CLR); 
+	color:  var(--T_CLR); 
 	padding: .7em;
 	font-weight: bold
 }
 .C1A {
 	grid-column: 3;
 	grid-row: 2;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .C1B {
 	grid-column: 4;
 	grid-row: 2;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .C2A {
 	grid-column: 3;
 	grid-row: 3;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .C2B {
 	grid-column: 4;
 	grid-row: 3;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .C3A {
 	grid-column: 3;
 	grid-row: 4;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .C3B {
 	grid-column: 4;
 	grid-row: 4;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .C4A {
 	grid-column: 3;
 	grid-row: 5;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .C4B {
 	grid-column: 4;
 	grid-row: 5;
+	background-color: var(--C3_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .DT {
 	grid-column: 5/7;
 	grid-row: 1;
-	background-color: #d67317; 
+	background-color: var(--C4_H_CLR); 
+	color:  var(--T_CLR); 
 	padding: .7em;
 	font-weight: bold
 }
 .D1A {
 	grid-column: 5;
 	grid-row: 2;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .D1B {
 	grid-column: 6;
 	grid-row: 2;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .D2A {
 	grid-column: 5;
 	grid-row: 3;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .D2B {
 	grid-column: 6;
 	grid-row: 3;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .D3A {
 	grid-column: 5;
 	grid-row: 4;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .D3B {
 	grid-column: 6;
 	grid-row: 4;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .D4A {
 	grid-column: 5;
 	grid-row: 5;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 .D4B {
 	grid-column: 6;
 	grid-row: 5;
+	background-color: var(--C4_CLR); 
+	color:  var(--TXT_CLR); 
 }
 
 
