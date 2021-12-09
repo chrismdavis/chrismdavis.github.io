@@ -2530,6 +2530,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
+			width:20%;
 			font-size: var(--icon_size);
 			padding: 0 0 0 0;
 		}
